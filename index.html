@@ -1,10 +1,14 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Pizza Ever</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Permanent+Marker" rel="stylesheet">
 </head>
 
 <body>
@@ -12,79 +16,126 @@
 <header>
     <header id="intro">
         <div class="content">
+        <center><img src="https://thumbs.dreamstime.com/b/m%C3%A3o-da-pizza-escrita-rotulando-o-logotipo-etiqueta-crach%C3%A1-83238867.jpg" alt="logo"><center>
         <h1 id="name">Pizzaria La DevLeague</h1>
-        <h2 id="tagline">Functional Pizza For All!</h2>
-        <img src="assets\pizzaMan.jpeg" alt="logo">
+            
             <nav id="topMenu">
                 <li class="guide"><a href="#today">Today's Special</a></li>
                 <li class="guide"><a href="#menu">Menu</a></li>
                 <li class="guide"><a href="#subscribe">Subscribe</a></li>
                 <li class="guide"><a href="#visit">Visit</a></li>   
             </nav>
+        
         </div>
 </header>
+
+<section>
+        <h2>Functional Pizza For All!</h2>
+        <center><video autoplay="" loop="" muted="" preload="auto">
+        <source src="http://www.pizzainn.com/wp-content/uploads/2018/03/pizza-inn-video-display-720p.mp4" type="video/mp4">
+        </video></center>
+</section>
 
 <section id="today">
         <div class="content">
             <h3 class="sectionTitle">Today's Special</h3>
-            <p id="special">Conditional Love</p>
+                <h2>Conditional Love</h2>
+                <center><img src="http://storage.googleapis.com/bro-cdn1/zgrid/themes/10307/images/home/pizza.png" alt="logo" width="200" height="200"><center>
+                <p>A web designers delight, this classic has string mozarella cheese, pepperoni, fresh mushrooms and 1 special white sauce.</p>
+                <h4>$18.90<h4>
         </div>
 </section>
+    
 
 <section id="menu">
-        <div class="content">
+<div class="content">
             <h3 class="sectionTitle">Menu</h3>
         </div>
 
-        <div class="pizza">
-            <p class="pizzaName">Object of My Desire</p>
-            <p class="descrition">A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
-            <p class="price">19.90</p>
-        </div>
-
-        <div class="pizza">
-                <p class="pizzaName">The DOM</p>
-                <p class="descrition">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
-                <p class="price">16.99</p>
-        </div>
-
-        <div class="pizza">
-                <p class="pizzaName">Conjunction Function</p>
-                <p class="descrition">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
-                <p class="price">17.02</p>
-        </div>
 </section>
+                        
+        <section class="columns">
+                
+                <div class="column">
+                        <center><h2>Object of My Desire</h2>
+                        <center><img class="pic_cir" src="http://www.mytopitpizza.com/wp-content/uploads/2015/08/BBQ-Chicken-Web-Iso.png" alt="logo" width="500" height="500"></center>                    
+                        <p>A programmers delight, this classic has string cheese, an array of BBQ meats and 1 special sauce.</p>
+                        <h4>$19.90</h4></center>
+                </div>
+                
+                <div class="column">
+                        <center><h2>The DOM</h2>
+                        <center><img class="pic_cir" src="https://johnnysph.com/wp-content/uploads/2016/03/Pizza_Hog_401x382.png" alt="logo" width="500" height="500"></center>
+                        <p>This dynamic blend of Duck, Jalapeno and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
+                        <h4>$16.99</h4></center>
+                </div>
+          
+                <div class="column">
+                        <center><h2>Conjunction Function</h2>
+                        <center><img class="pic_cir" src="http://www.mytopitpizza.com/wp-content/uploads/2015/08/Lauras-Chicken-Web-Iso.png" alt="logo" width="500" height="500"></center>
+                        <p>Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
+                        <h4>$17.02</h4></center>
+                </div>
+</section>		
+
+                
 
 <section id="subscribe">
     <div class="content">
             <h3 class="sectionTitle">Subscribe</h3>
-            <p id="deal">Sign up for our special deals</p>
-            <input placeholder="First Name">
+            <center><p id="deal">Sign up for our special deals</p><center>
+            <center></center><input placeholder="First Name">
             <input placeholder="Last Name">
             <input placeholder="email">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"><center>
     </div>
 </section>
 
-<section id="visits">
+<section id="visit">
         <div class="content">
                 <h3 class="sectionTitle">Visit</h3>
-                <ul id="addy">
-                    <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
-                    <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543">View Map</a></li>
-                    <li class="hours">Monday - Saturday</li>
-                    <li class="hours">12pm - 12am</li>
-                    <li class="hours">Coding On Sundays</li>  
+                <section class="columns_two">
+                        <div class="column_two">
+                                <div class="mapouter">
+                                       <div class="gmap_canvas">
+                                                <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Manoa%20Innovation%20Center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><style>.mapouter{text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style>
+                                        </iframe>
+                                                </div>
+                                </div>
+                        </div>  
+                        
+                        <div class="column_two">
+                                <h2>Come have a slice with us!</h2>
+                                <center><h4>Address: <br>2800 Woodlawn Dr.<br>Honolulu, HI 96822</h4>
+                                <h4>Days OPEN: <br>Monday - Saturday</h4>
+                                <h4>Time: <br>12pm - 12am</h4>
+                                <h4>Coding on Sunday</h4></center>
+                        </div>
+                </section>
         </div>
 </section>
 
+
 <footer>
         <div class="content">
-            <p id="credit">Site Design and Development By Jamila Coronado</p>
-            <p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
+            <center><p id="credit">Site Design and Development By Jamila Coronado</p>
+            <p id="copyright">&copy 2017 Pizza Maker's Association (PMA)</p></center>
         </div>
 </footer>
 
 </body>
 
 </html>
+
+<!-- 
+<section id="visit">
+                <div class="content">
+                        <h3 class="sectionTitle">Visit</h3>
+                        <ul id="addy">
+                            <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>     
+                            <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543">View Map</a></li>
+                            <li class="hours">Monday - Saturday</li>
+                            <li class="hours">12pm - 12am</li>
+                            <li class="hours">Coding On Sundays</li>  
+                </div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Manoa%20Innovation%20Center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><style>.mapouter{text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style> -->
